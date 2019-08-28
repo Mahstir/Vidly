@@ -197,9 +197,38 @@
     <Compile Include="Migrations\201908281102346_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201908281102346_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908281244462_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201908281244462_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201908281244462_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908281246037_UpdateExistingDBrecordsTocontainName.cs" />
+    <Compile Include="Migrations\201908281246037_UpdateExistingDBrecordsTocontainName.Designer.cs">
+      <DependentUpon>201908281246037_UpdateExistingDBrecordsTocontainName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908281316260_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201908281316260_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201908281316260_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908281356213_AddDateAndNumberInStockToMovie.cs" />
+    <Compile Include="Migrations\201908281356213_AddDateAndNumberInStockToMovie.Designer.cs">
+      <DependentUpon>201908281356213_AddDateAndNumberInStockToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908281419378_AddMovieModel.cs" />
+    <Compile Include="Migrations\201908281419378_AddMovieModel.Designer.cs">
+      <DependentUpon>201908281419378_AddMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908281508215_MakeDataAnnotationRequiredOnMovie.cs" />
+    <Compile Include="Migrations\201908281508215_MakeDataAnnotationRequiredOnMovie.Designer.cs">
+      <DependentUpon>201908281508215_MakeDataAnnotationRequiredOnMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908281513268_PopulateGenre.cs" />
+    <Compile Include="Migrations\201908281513268_PopulateGenre.Designer.cs">
+      <DependentUpon>201908281513268_PopulateGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -335,6 +364,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908281102346_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201908281102346_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281244462_AddNameToMembershipType.resx">
+      <DependentUpon>201908281244462_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281246037_UpdateExistingDBrecordsTocontainName.resx">
+      <DependentUpon>201908281246037_UpdateExistingDBrecordsTocontainName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281316260_AddBirthdateToCustomer.resx">
+      <DependentUpon>201908281316260_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281356213_AddDateAndNumberInStockToMovie.resx">
+      <DependentUpon>201908281356213_AddDateAndNumberInStockToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281419378_AddMovieModel.resx">
+      <DependentUpon>201908281419378_AddMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281508215_MakeDataAnnotationRequiredOnMovie.resx">
+      <DependentUpon>201908281508215_MakeDataAnnotationRequiredOnMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281513268_PopulateGenre.resx">
+      <DependentUpon>201908281513268_PopulateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

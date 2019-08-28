@@ -1,4 +1,5 @@
 ﻿@using System.Activities.Statements
+@using Vidly.Controllers
 @model IEnumerable<Vidly.Models.Movie>
 
 @{
@@ -19,6 +20,7 @@ else
         <thead>
         <tr>
             <th>Movies</th>
+            <th>Genre</th>
         </tr>
         </thead>
         <tbody>
@@ -26,7 +28,8 @@ else
             {
                 <tr>
                     <td>@Html.ActionLink(movie.Name, "Details", "Movies", new {id = movie.Id}, null)</td>
-                </tr>
+                    <td>@movie.Genre.Name</td>
+                    </tr>
             }
         </tbody>
         
